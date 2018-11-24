@@ -5,7 +5,7 @@ void main()
   int i;
   do
   {
-    printf("What is your Name? ");
+    printf("What is your Name? "); //222
     scanf("%s", Name); //scan user name
     do
     {
@@ -21,7 +21,7 @@ void main()
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
                             strcmp(G, "O") !=0 );
-    if (strcmp(G,"A") ==0)
+    if (strcmp(G,"A") ==0) //2222
     {
       printf("%s, A. Hey, you can give blood to: A, AB.\n", Name);
       printf("  You can receive blood from: A, O.\n");
