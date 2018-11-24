@@ -1,11 +1,11 @@
-#include <stdio.h>
+¡#include <stdio.h>
 #include <string.h>
 void main()
 { char Name[40], G[5], answer[10];
   int i;
   do
   {
-    printf("What is your Name? ");
+    printf("What is your Name? "); //message Asking for username
     scanf("%s", Name); //scan user name
     do
     {
@@ -21,7 +21,7 @@ void main()
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
                             strcmp(G, "O") !=0 );
-    if (strcmp(G,"A") ==0)
+    if (strcmp(G,"A") ==0) //If user have A bloodgroup
     {
       printf("%s, A. Hey, you can give blood to: A, AB.\n", Name);
       printf("  You can receive blood from: A, O.\n");
